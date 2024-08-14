@@ -1,0 +1,94 @@
+.donation-container{
+    background-color: #0e0b25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.donation-upper-box{
+    height: 900px;
+    width: 900px;
+    background-image: url('../assets/donation-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 90px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donation-inner-box{
+    height: 830px;
+    width: 830px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.img-details{
+    background-image:url("../assets/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #3cea56;
+    width: 40%;
+    justify-content: center;
+}
+.img-details>h1{
+    font-size: 50px;
+}
+.donation-info{
+    width: 60%;
+    padding: 30px;
+}
+.donation-type-input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.donation-type-input>select{
+    border: 1px solid greenyellow;
+    height: 40px;
+    background-color: #c6c6c6;
+    font-size: 18px;
+    outline: #3cea56;
+}
+.donation-type-input>label{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.donation-type-input>p{
+    color: #3cea56;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.donation-button-container>label{
+    border: 2px solid yellowgreen;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.donation-button{
+    border: 2px solid #9acd32;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.donation-type-input>input{
+    border: 1px solid greenyellow;
+    height: 40px;
+    background-color: #c6c6c6;
+    font-size: 18px;
+    outline: #3cea56;
+}

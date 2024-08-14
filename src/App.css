@@ -1,0 +1,23 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.input{
+  width: 300px;
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid #ffffff;
+  outline: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 10px;
+
+}
